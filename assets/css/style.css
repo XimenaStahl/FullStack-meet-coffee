@@ -1,14 +1,14 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
 body {
     text-align: center;
     color: #000f08;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-}
-
-body * {
-    margin: 0;
-    border: 0;
-    padding: 0;
 }
 
 h1 {
@@ -170,4 +170,30 @@ footer i {
 .post {
     width: 100%;
     padding: 2.25em 0;
+}
+
+.content {
+    padding-top: 8.25rem;
+    text-align: left;
+    width: 50%;
+    padding-left: 25vw;
+}
+
+.content img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.content p {
+    text-align: justify;
+    padding: 0.5em 0;
+}
+
+.content h2 {
+    padding: 0.5em 0;
+}
+
+.enlace {
+    text-decoration: none;
+    color: #000f08;
 }
